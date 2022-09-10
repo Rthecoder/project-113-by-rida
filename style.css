@@ -1,0 +1,14 @@
+.heading{
+    font-weight: bold ;
+    width:100%;
+    font-size: 25px;
+    margin-top: 0;
+    box-shadow: 15px 15px 30px grey ;
+}
+canvas{
+    animation-name: Rida; animation-duration: 4s; animation-iteration-count: infinite;
+}
+@keyframes Rida{
+    from{ box-shadow: 15px 15px 30px crimson ;} 
+    to{ box-shadow: 15px 15px 30px orchid ;}
+}
